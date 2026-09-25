@@ -57,7 +57,7 @@
       apply: function () {
         if (heroLede) {
           heroLede.textContent =
-            'Residential electrical and panels across Colton and the Inland Empire. William looks at the house first and puts the price in writing.';
+            'Residential electrical and panels in Colton. William looks at the house first and puts the price in writing.';
         }
       }
     },
