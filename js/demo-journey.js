@@ -57,7 +57,7 @@
       apply: function () {
         if (heroLede) {
           heroLede.textContent =
-            'Residential electrical, panel upgrades, and wiring across Colton and the Inland Empire. You get a fixed itemised quote before we start, William as your named lead on site, and a twelve-month workmanship guarantee when we leave.';
+            'Residential electrical and panels across Colton and the Inland Empire. William looks at the house first and puts the price in writing.';
         }
       }
     },
@@ -65,7 +65,7 @@
       id: 'h1',
       apply: function () {
         if (heroH) {
-          heroH.innerHTML = 'Panel work and wiring,<br>quoted <em>before</em> we start.';
+          heroH.innerHTML = 'Panels and home wiring,<br>priced <em>first.</em>';
         }
       }
     },
@@ -73,7 +73,7 @@
       id: 'service',
       apply: function () {
         if (serviceFirst) {
-          serviceFirst.textContent = 'Residential electrical (written programme)';
+          serviceFirst.textContent = 'Panel upgrades (written price)';
         }
       }
     }
@@ -85,9 +85,9 @@
     /* mode: draft | updated */
     if (!barSub) return;
     if (mode === 'updated') {
-      barSub.textContent = 'Draft for William at Brother's Electric. Claim it, preview the rest of the journey, or request a change.';
+      barSub.textContent = 'Draft for William at Brother\'s Electric. Claim it, preview the rest of the journey, or request a change.';
     } else {
-      barSub.textContent = 'Draft for William at Brother's Electric. Claim it, preview the rest of the journey, or request a change.';
+      barSub.textContent = 'Draft for William at Brother\'s Electric. Claim it, preview the rest of the journey, or request a change.';
     }
   }
 
@@ -158,7 +158,7 @@
       var delay = 2500 + Math.floor(Math.random() * 1500);
       runSpinner(
         'Working on updates to your site…',
-        'Updating the draft for Brother's Electric. Hang tight.',
+        'Updating the draft for Brother\'s Electric. Hang tight.',
         delay,
         function () {
           var editId = applyNextEdit();
